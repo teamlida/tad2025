@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import config from './config';
+import businessmanImage from './businessman.jpeg';
 
 function App() {
   const [idea, setIdea] = useState('');
@@ -60,7 +61,7 @@ function App() {
           </p>
           <div className="flex justify-center">
             <img
-              src="https://source.unsplash.com/featured/300x200?businessman"
+              src={businessmanImage}
               alt="Businessman"
               className="rounded-lg shadow-lg"
             />
